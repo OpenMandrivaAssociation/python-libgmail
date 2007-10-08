@@ -1,13 +1,13 @@
 %define oname libgmail
 %define name python-%oname
-%define version 0.1.5.1
+%define version 0.1.6.2
 %define release %mkrel 1
 
 Summary: Python bindings to access Gmail
 Name: %{name}
 Version: %{version}
 Release: %{release}
-Source0: http://downloads.sourceforge.net/libgmail/%{oname}-%{version}.tar.bz2
+Source0: http://downloads.sourceforge.net/libgmail/%{oname}-%{version}.tar.gz
 License: GPL
 Group: Development/Python
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
