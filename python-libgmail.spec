@@ -1,6 +1,6 @@
 %define oname libgmail
 %define name python-%oname
-%define version 0.1.6.2
+%define version 0.1.7
 %define release %mkrel 1
 
 Summary: Python bindings to access Gmail
