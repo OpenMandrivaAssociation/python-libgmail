@@ -10,7 +10,6 @@ Release: %{release}
 Source0: http://downloads.sourceforge.net/libgmail/%{oname}-%{version}.tar.gz
 License: GPL
 Group: Development/Python
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://libgmail.sourceforge.net/
 BuildArch: noarch
 BuildRequires: python-devel
