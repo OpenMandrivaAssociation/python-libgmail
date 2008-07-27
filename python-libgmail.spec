@@ -1,7 +1,7 @@
 %define oname libgmail
 %define name python-%oname
-%define version 0.1.9
-%define release %mkrel 1
+%define version 0.1.10
+%define release %mkrel 2
 
 Summary: Python bindings to access Gmail
 Name: %{name}
@@ -14,8 +14,8 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Url: http://libgmail.sourceforge.net/
 BuildArch: noarch
 BuildRequires: python-devel
-BuildRequires: python-clientcookie
-Requires: python-clientcookie
+BuildRequires: python-mechanize
+Requires: python-mechanize
 
 %description
 This is a Python library to access Google Mail.
