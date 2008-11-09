@@ -1,7 +1,7 @@
 %define oname libgmail
 %define name python-%oname
-%define version 0.1.10
-%define release %mkrel 2
+%define version 0.1.11
+%define release %mkrel 1
 
 Summary: Python bindings to access Gmail
 Name: %{name}
@@ -34,6 +34,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(-,root,root)
+%py_puresitedir/gmail*py*
 %py_puresitedir/lgconstants.py*
 %py_puresitedir/libgmail*
 
